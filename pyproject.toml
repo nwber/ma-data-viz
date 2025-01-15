@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "hello-streamlit"
+version = "0.1.0"
+description = ""
+authors = ["Donatas Rasiukevicius <donatas@fly.io>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+streamlit = "^1.35.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
